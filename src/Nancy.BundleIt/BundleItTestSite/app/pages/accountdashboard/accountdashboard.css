@@ -1,0 +1,38 @@
+﻿.property-card{
+    cursor:pointer;
+    /*width: 290px;*/
+    height: 160px;
+    border: 1px #ffffff solid;
+    position:relative;
+    background-color: #FCF4D9;
+    padding:10px;
+    -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+}
+.card-content{
+    padding-right: 50px;
+}
+.card-content span{
+    font-size: 12pt;
+}
+.card-content p {
+    font-size: 10pt;
+}
+.card-new-prop-msg{
+    font-size:16px;
+}
+.card-footer{
+    background-color:#fff;
+    opacity:0.75;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 5px;
+    margin-left:-10px;
+}
+.edit-card{
+    position: absolute;
+    right: 0;
+    margin-right: 10px;
+}

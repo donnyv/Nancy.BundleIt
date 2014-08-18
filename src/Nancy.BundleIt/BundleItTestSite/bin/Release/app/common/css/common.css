@@ -1,0 +1,52 @@
+﻿/* Bootstrap add ons */
+.row-5-gutter{
+    margin-left: -5px;
+    margin-right: -5px;
+}
+.col-5-gutter{
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+.row-10-gutter{
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.col-10-gutter{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+/* end Bootstrap add ons */
+#container{
+    background-color:#F9EDC2;
+    padding-top:52px;
+}
+.btn:focus {
+    outline:0;
+}
+@media only screen and (max-width: 768px) {
+    a.linkunderline{
+        text-decoration:underline;
+    }
+}
+@media only screen and (min-width: 769px) {
+
+}
+.dropdown-menu>li>a.text-red{
+    color:#a94442; !important
+}
+.page-title {
+    font-family: 'Philosopher', sans-serif;
+    font-size: 24pt;
+    -webkit-text-shadow: 0px 0px 5px #D8D7D7;
+    text-shadow: 0px 0px 5px #D8D7D7;
+}
+
+.property-name {
+    color: rgb(138, 138, 138);
+    -webkit-text-shadow: 0px 0px 5px #D8D7D7;
+    text-shadow: 0px 0px 5px #D8D7D7;
+}

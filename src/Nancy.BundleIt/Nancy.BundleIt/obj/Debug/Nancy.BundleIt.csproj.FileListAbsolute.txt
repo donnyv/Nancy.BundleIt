@@ -1,0 +1,14 @@
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.BundleIt.dll.config
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.BundleIt.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.BundleIt.pdb
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\EcmaScript.NET.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.ViewEngines.Razor.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\System.Web.Razor.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Yahoo.Yui.Compressor.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.xml
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\Nancy.ViewEngines.Razor.xml
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\bin\Debug\System.Web.Razor.xml
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\obj\Debug\Nancy.BundleIt.dll
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\obj\Debug\Nancy.BundleIt.pdb
+c:\users\donny\documents\visual studio 2013\Projects\Nancy.BundleIt\Nancy.BundleIt\obj\Debug\Nancy.BundleIt.csprojResolveAssemblyReference.cache
