@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 using Nancy.BundleIt;
 
@@ -11,8 +8,11 @@ namespace BundleItTestSite
     {
         public void Configure(Bundles bundles, ConfigSettings settings)
         {
+            // Optional settings
             //settings.ScriptPath = "_scriptbundle";
+            //settings.StylePath = "_stylebundle";
             //settings.ThrowExceptionWhenFileMissing = true;
+            //settings.ForceDebugMode = false;
             //settings.ForceReleaseMode = true;
             
 

@@ -17,7 +17,7 @@ namespace Nancy.BundleIt
 
         public RequestHandler()
         {
-            Get["/" + settings.ScriptPath + "/{bundlename}.js"] = parameters =>
+            Get["/" + settings.ScriptPath + "/{bundlename}.{hash}.js"] = parameters =>
             {
                 var bundle = bundles.GetBundle((string)parameters.bundlename, Bundles.eBundleType.script);
                 return CacheHelpers.ReturnNotModified(bundle.ETag, null, this.Context)
@@ -25,7 +25,7 @@ namespace Nancy.BundleIt
                     : ResponseWithBundle(bundle, "application/javascript");
             };
 
-            Get["/" + settings.StylePath + "/{bundlename}.css"] = parameters =>
+            Get["/" + settings.StylePath + "/{bundlename}.{hash}.css"] = parameters =>
             {
                 var bundle = bundles.GetBundle((string)parameters.bundlename, Bundles.eBundleType.style);
                 return CacheHelpers.ReturnNotModified(bundle.ETag, null, this.Context)
