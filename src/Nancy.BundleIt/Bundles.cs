@@ -19,9 +19,9 @@ namespace Nancy.BundleIt
             script = 0,
             style = 1
         }
-        const string _script_tag_template = "<script src='{0}.js?h={1}'></script>";
+        const string _script_tag_template = "<script src='{0}.{1}.js'></script>";
         const string _script_tag_standard_template = "<script src='{0}'></script>";
-        const string _style_tag_template = "<link rel='stylesheet' type='text/css' href='{0}.css?h={1}'>";
+        const string _style_tag_template = "<link rel='stylesheet' type='text/css' href='{0}.{1}.css'>";
         const string _style_tag_standard_template = "<link rel='stylesheet' type='text/css' href='{0}'>";
 
         ConfigSettings _settings = ConfigSettings.Instance;
@@ -370,7 +370,7 @@ namespace Nancy.BundleIt
             if(!File.Exists(filepath)){
 
                 if(ConfigSettings.Instance.ThrowExceptionWhenFileMissing)
-                    throw new FileNotFoundException("Could not find file.", filepath);
+                    throw new FileNotFoundException("Could not find file '" + filepath + "'.", filepath);
                 else
                     return string.Empty;
             }
