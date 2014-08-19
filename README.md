@@ -110,4 +110,10 @@ Then call your bundles in the view.
 </html>
 ```
 
+## Copyright
 
+Copyright © 2014 Donny Velazquez and contributors
+
+## License
+
+Nancy.BundleIt is licensed under [MIT](http://www.opensource.org/licenses/mit-license.php "Read more about the MIT license form").
