@@ -11,6 +11,8 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 using Yahoo.Yui.Compressor;
 
+using Nancy;
+
 namespace Nancy.BundleIt
 {
     public sealed class ConfigSettings
@@ -250,18 +252,13 @@ namespace Nancy.BundleIt
 
         internal bool IsDebugMode()
         {
-
             if (_instance.ForceDebugMode)
                 return true;
 
             if (_instance.ForceReleaseMode)
                 return false;
 
-            #if DEBUG
-                return true;
-            #else
-                return false;
-            #endif
+            return StaticConfiguration.IsRunningDebug;
         }
     }
 }
