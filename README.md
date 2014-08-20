@@ -94,17 +94,10 @@ Then call your bundles in the view.
     <meta charset="utf-8" />
     <title>Account Dashboard</title>
     @BundleItAssets.RenderCSS("accountdashboard")
-	<style type="text/css">
-
-		body {
-			text-align: center;
-		}
-
-	</style>
-
 </head>
 <body>
     <b>Account Dashboard</b>
+    <!-- content -->
     @BundleItAssets.RenderJS("accountdashboard")
 </body>
 </html>
