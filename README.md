@@ -93,12 +93,12 @@ Then call your bundles in the view.
 <head>
     <meta charset="utf-8" />
     <title>Account Dashboard</title>
-    @BundleItAssets.RenderCSS("accountdashboard")
+    @BundleItAssets.RenderCSS("base")
 </head>
 <body>
     <b>Account Dashboard</b>
     <!-- content -->
-    @BundleItAssets.RenderJS("accountdashboard")
+    @BundleItAssets.RenderJS("base")
 </body>
 </html>
 ```
