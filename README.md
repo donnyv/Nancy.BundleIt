@@ -2,7 +2,7 @@
 ## A bundling library made for Nancyfx.
 
 Nancy.BundleIt minifies, obfuscates, concatenates, caches and versions all of your Javascript and CSS files.
-It uses the well tested and proven [YUI Compressor for .Net](https://github.com/PureKrome/YUICompressor.NET) to minify & obfuscates the code.
+It uses the well tested and proven [Port of Yahoo!'s Java YUICompressor to .NET](https://github.com/PureKrome/YUICompressor.NET) to minify & obfuscates the code.
 
 ## Features
 
