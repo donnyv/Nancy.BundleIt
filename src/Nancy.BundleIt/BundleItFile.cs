@@ -73,8 +73,7 @@ namespace Nancy.BundleIt
                     return true;
             }
         }
-        //internal string obfuscated_source { get; set; }
-        //internal string obfuscated_source_hash { get; set; }
+        
         internal ConfigSettings.YUICompressionSettings.Js YuiJsSettings { get; set; }
         internal ConfigSettings.YUICompressionSettings.CSS YuiCssSettings { get; set; }
 
