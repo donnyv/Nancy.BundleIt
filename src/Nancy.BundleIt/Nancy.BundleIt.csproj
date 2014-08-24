@@ -68,7 +68,6 @@
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Helpers\LinqExtensions.cs" />
     <Compile Include="IBundleItConfig.cs" />
-    <None Include="Nuget\BundleItConfig.cs.pp" />
     <Compile Include="RequestHandler.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

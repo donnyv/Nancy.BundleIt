@@ -30,3 +30,35 @@ C:\Users\dvela\Documents\Visual Studio 2013\Projects\Nancy.BundleIt\BundleItTest
 C:\Users\dvela\Documents\Visual Studio 2013\Projects\Nancy.BundleIt\BundleItTestSite\bin\Debug\Views\Vendors\index.cshtml
 C:\Users\dvela\Documents\Visual Studio 2013\Projects\Nancy.BundleIt\BundleItTestSite\bin\Debug\Yahoo.Yui.Compressor.dll
 C:\Users\dvela\Documents\Visual Studio 2013\Projects\Nancy.BundleIt\BundleItTestSite\bin\Debug\EcmaScript.NET.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\BundleItTestSite.exe.config
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\obj\Debug\BundleItTestSite.exe
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\obj\Debug\BundleItTestSite.pdb
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\common\css\common.css
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\common\js\propertyBL.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\common\js\toolbox.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\pages\accountdashboard\accountdashboard.css
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\pages\accountdashboard\accountdashboard.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\pages\accountdashboard\accountdashboardBL.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\vendors\jquery.1.11.0.min.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\vendors\lodash.2.4.1.min.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\vendors\ractiveJS\ractive-transitions-fade.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\vendors\ractiveJS\ractive.0.4.0.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\app\vendors\ractiveJS\ractive.0.4.0.min.js
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Views\AccountDashboard\index.cshtml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Views\index.cshtml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Views\Vendors\index.cshtml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\BundleItTestSite.exe
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\BundleItTestSite.pdb
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.BundleIt.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.Hosting.Self.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.ViewEngines.Razor.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\System.Web.Razor.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Yahoo.Yui.Compressor.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\EcmaScript.NET.dll
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.BundleIt.pdb
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.xml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.Hosting.Self.xml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\Nancy.ViewEngines.Razor.xml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\bin\Debug\System.Web.Razor.xml
+C:\Users\Donny\Documents\GitHub\Nancy.BundleIt\src\BundleItTestSite\obj\Debug\BundleItTestSite.csprojResolveAssemblyReference.cache
