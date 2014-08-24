@@ -293,6 +293,11 @@ namespace Nancy.BundleIt
                         path = f.debugrelativepath;
 
 
+                    // check for leading '/'
+                    if (path[0] == "/".ToCharArray()[0])
+                        path = path.Substring(1);
+
+
                     var filesource = LoadFile(Path.Combine(RootFolder, path));
 
                     // run it through YUI if not already minified
