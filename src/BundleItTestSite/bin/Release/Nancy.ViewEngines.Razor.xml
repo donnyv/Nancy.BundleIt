@@ -66,8 +66,16 @@
             Gets the extension this view renderer supports.
             </summary>
         </member>
-        <!-- Badly formed XML comment ignored for member "P:Nancy.ViewEngines.Razor.CSharp.CSharpRazorViewRenderer.ModelCodeGenerator" -->
-        <!-- Badly formed XML comment ignored for member "P:Nancy.ViewEngines.Razor.CSharp.CSharpRazorViewRenderer.Host" -->
+        <member name="P:Nancy.ViewEngines.Razor.CSharp.CSharpRazorViewRenderer.ModelCodeGenerator">
+            <summary>
+            Gets the <see cref="T:System.Web.Razor.Generator.SetBaseTypeCodeGenerator"/> that should be used with the renderer.
+            </summary>
+        </member>
+        <member name="P:Nancy.ViewEngines.Razor.CSharp.CSharpRazorViewRenderer.Host">
+            <summary>
+            Gets the host.
+            </summary>
+        </member>
         <member name="P:Nancy.ViewEngines.Razor.CSharp.CSharpRazorViewRenderer.Provider">
             <summary>
             Gets the provider that is used to generate code.
@@ -546,6 +554,16 @@
             <param name="renderContext">The render context.</param>
             <returns>A response.</returns>
         </member>
+        <member name="M:Nancy.ViewEngines.Razor.RazorViewEngine.RenderView(Nancy.ViewEngines.ViewLocationResult,System.Object,Nancy.ViewEngines.IRenderContext,System.Boolean)">
+            <summary>
+            Renders the view.
+            </summary>
+            <param name="viewLocationResult">A <see cref="T:Nancy.ViewEngines.ViewLocationResult"/> instance, containing information on how to get the view template.</param>
+            <param name="model">The model that should be passed into the view</param>
+            <param name="renderContext">The render context.</param>
+            <param name="isPartial">Used by HtmlHelpers to declare a view as partial</param>
+            <returns>A response.</returns>
+        </member>
         <member name="M:Nancy.ViewEngines.Razor.RazorViewEngine.FindModelType(System.Web.Razor.Parser.SyntaxTree.Block,System.Type,System.Type)">
             <summary>
             Tries to find the model type from the document
@@ -574,7 +592,7 @@
             <value>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> instance containing the extensions.</value>
             <remarks>The extensions should not have a leading dot in the name.</remarks>
         </member>
-        <member name="T:Nancy.ViewEngines.Razor.RazorViewEngineApplicationRegistrations">
+        <member name="T:Nancy.ViewEngines.Razor.RazorViewEngineRegistrations">
             <summary>
             Default dependency registrations for the <see cref="T:Nancy.ViewEngines.Razor.RazorViewEngine"/> class.
             </summary>
@@ -660,6 +678,42 @@
             <summary>
             Gets the provider that is used to generate code.
             </summary>
+        </member>
+        <member name="T:Nancy.ViewEngines.Razor.EncodedHtmlString">
+            <summary>
+            An html string that is encoded.
+            </summary>
+        </member>
+        <member name="F:Nancy.ViewEngines.Razor.EncodedHtmlString.Empty">
+            <summary>
+            Represents the empty <see cref="T:Nancy.ViewEngines.Razor.EncodedHtmlString"/>. This field is readonly.
+            </summary>
+        </member>
+        <member name="M:Nancy.ViewEngines.Razor.EncodedHtmlString.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Nancy.ViewEngines.Razor.EncodedHtmlString"/> class.
+            </summary>
+            <param name="value">The encoded value.</param>
+        </member>
+        <member name="M:Nancy.ViewEngines.Razor.EncodedHtmlString.ToHtmlString">
+            <summary>
+            Returns an HTML-encoded string.
+            </summary>
+            <returns>An HTML-encoded string.</returns>
+        </member>
+        <member name="M:Nancy.ViewEngines.Razor.EncodedHtmlString.op_Implicit(System.String)~Nancy.ViewEngines.Razor.EncodedHtmlString">
+            <summary>
+            Implicitly cast a string to an <see cref="T:Nancy.ViewEngines.Razor.EncodedHtmlString"/> instance.
+            </summary>
+            <param name="value">The string that should be encoded.</param>
+            <returns>An <see cref="T:Nancy.ViewEngines.Razor.EncodedHtmlString"/> instance</returns>
+        </member>
+        <member name="M:Nancy.ViewEngines.Razor.EncodedHtmlString.op_Implicit(Nancy.ViewEngines.Razor.EncodedHtmlString)~System.String">
+            <summary>
+            Implicitly cast an <see cref="T:Nancy.ViewEngines.Razor.EncodedHtmlString"/> instance to a string.
+            </summary>
+            <param name="encoded">The <see cref="T:Nancy.ViewEngines.Razor.EncodedHtmlString"/> instance.</param>
+            <returns>A string containing the encoded value.</returns>
         </member>
     </members>
 </doc>
