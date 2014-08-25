@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-
-using Nancy;
-using Nancy.Helpers;
+﻿using Nancy.Helpers;
 using Nancy.Responses;
-using Nancy.BundleIt.Extensions;
 
 namespace Nancy.BundleIt
 {
