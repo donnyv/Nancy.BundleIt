@@ -26,6 +26,12 @@ Nuget will drop a class into your project called "BundleItConfig.cs".
 ```csharp
 using System.Collections.Generic;
 using Nancy.BundleIt;
+
+/// <summary>
+/// Configures Nancy.BundleIt assets on application startup.
+/// There can only be 1 class that uses the interface IBundleItConfig per project. 
+/// BundleIt will use the first one it finds.
+/// </summary>
 public class BundleItConfig : IBundleItConfig
 {
 	public void Configure(Bundles bundles, ConfigSettings settings)
