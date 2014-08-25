@@ -4,9 +4,10 @@ using Nancy.BundleIt;
 
 namespace $rootnamespace$
 {
-	/// <summary>
+    /// <summary>
     /// Configures Nancy.BundleIt assets on application startup.
-	/// There can only be 1 BundleItConfig.cs file per project. BundleIt will use the first one it finds.
+    /// There can only be 1 class that uses the interface IBundleItConfig per project. 
+    /// BundleIt will use the first one it finds.
     /// </summary>
     public class BundleItConfig : IBundleItConfig
     {
