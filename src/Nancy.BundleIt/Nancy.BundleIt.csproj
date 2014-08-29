@@ -64,6 +64,7 @@
     <Compile Include="BundleItRegistration.cs" />
     <Compile Include="BundleItFile.cs" />
     <Compile Include="Bundles.cs" />
+    <Compile Include="CdnPath.cs" />
     <Compile Include="ConfigSettings.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
     <Compile Include="Helpers\LinqExtensions.cs" />

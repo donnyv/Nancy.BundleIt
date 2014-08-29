@@ -25,24 +25,32 @@ namespace Nancy.BundleIt
             this.minifiedrelativepath = minifiedrelativepath;
             this.IsCDN = IsCDN;
         }
-        public BundleItFile(string debugrelativepath, string minifiedrelativepath, bool IsCDN, ConfigSettings.YUICompressionSettings.Js YuiJsSettings)
+        public BundleItFile(Bundle bundle)
+        {
+            this.bundle_ref_name = bundle.Name.ToUpper();
+        }
+        public BundleItFile(CdnPath cdnpath)
+        {
+            this.debugrelativepath = cdnpath.path;
+            this.minifiedrelativepath = cdnpath.path;
+            this.IsCDN = true;
+        }
+
+        internal BundleItFile(string debugrelativepath, string minifiedrelativepath, bool IsCDN, ConfigSettings.YUICompressionSettings.Js YuiJsSettings)
         {
             this.debugrelativepath = debugrelativepath;
             this.minifiedrelativepath = minifiedrelativepath;
             this.IsCDN = IsCDN;
             this.YuiJsSettings = YuiJsSettings;
         }
-        public BundleItFile(string debugrelativepath, string minifiedrelativepath, bool IsCDN, ConfigSettings.YUICompressionSettings.CSS YuiCssSettings)
+        internal BundleItFile(string debugrelativepath, string minifiedrelativepath, bool IsCDN, ConfigSettings.YUICompressionSettings.CSS YuiCssSettings)
         {
             this.debugrelativepath = debugrelativepath;
             this.minifiedrelativepath = minifiedrelativepath;
             this.IsCDN = IsCDN;
             this.YuiCssSettings = YuiCssSettings;
         }
-        public BundleItFile(Bundle bundle)
-        {
-            this.bundle_ref_name = bundle.Name.ToUpper();
-        }
+        
 
         public string debugrelativepath { get; set; }
         public string minifiedrelativepath { get; set; }
