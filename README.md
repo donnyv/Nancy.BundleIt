@@ -44,7 +44,7 @@ public class BundleItConfig : IBundleItConfig
 		//settings.ForceReleaseMode = true;
 		
 
-		// Add scripts based on relative path from root project.
+		// Add scripts based on relative path from project's root.
 		var bundleRactive = bundles.AddScripts("ractive", new List<BundleItFile>
 		{
 			new BundleItFile("app/vendors/ractiveJS/ractive.0.4.0.js", "app/vendors/ractiveJS/ractive.0.4.0.min.js"),
