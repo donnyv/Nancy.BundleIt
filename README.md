@@ -4,6 +4,8 @@
 Nancy.BundleIt minifies, obfuscates, concatenates, caches and versions all of your Javascript and CSS files.
 It uses the well tested and proven [Port of Yahoo!'s Java YUICompressor to .NET](https://github.com/PureKrome/YUICompressor.NET) to minify & obfuscates the code.
 
+##### If your using BundleIt in a project you would like to share. Send me the url and I'll add it here! [DonnyV@Twitter](https://twitter.com/Donny_V)
+
 ## Features
 
  * Minify javascript and css using YUICompressor
