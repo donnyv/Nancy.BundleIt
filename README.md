@@ -93,7 +93,7 @@ public class RazorConfig : IRazorConfiguration
 ```
 
 Then call your bundles in the view.
-```
+```html
 @using Nancy.BundleIt
 
 <!DOCTYPE html>
@@ -116,7 +116,7 @@ It is possible to prevent a local variable, nested function or function
 argument from being obfuscated by using "hints". A hint is a string that
 is located at the very beginning of a function body like so:
     
-```
+```javascript
 function fn (arg1, arg2, arg3) {
     "arg2:nomunge, localVar:nomunge, nestedFn:nomunge";
 
