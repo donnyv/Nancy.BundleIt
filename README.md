@@ -56,7 +56,7 @@ public class BundleItConfig : IBundleItConfig
 		// You can also add a CDN and use bundles you have already created.
 		var bundleBase = bundles.AddScripts("base", new List<BundleItFile>
 		{
-			new BundleItFile("app/vendors/jquery.1.11.0.min.js", "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", true),
+			new BundleItFile("app/vendors/jquery.1.11.0.js", "//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js", true),
 			new BundleItFile(bundleRactive),
 			new BundleItFile("app/vendors/lodash.2.4.1.min.js"),
 			new BundleItFile("app/common/js/toolbox.js")
