@@ -8,6 +8,7 @@ It uses the well tested and proven [Port of Yahoo!'s Java YUICompressor to .NET]
 
 ## Features
 
+ * Manage your debug and release versions of your .js and .css files in one place.
  * Minify javascript and css using YUICompressor
  * Override default YUICompressor settings for each file.
  * Bundles files automatically in release mode.
